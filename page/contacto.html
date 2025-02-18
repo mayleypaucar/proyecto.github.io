@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda "Las Maravillas"</title>
+</head>
+<body>
+    <header>Contacto - Tienda "Las Maravillas"</header>
+    <div class="container">
+        <h2>Contáctanos</h2>
+        <p>Si tienes dudas o comentarios, envíanos un mensaje a nuestro correo.</p>
+        <form onsubmit="enviarCorreo(); return false;">
+            <input type="text" id="nombre" placeholder="Tu Nombre" required>
+            <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+            <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </div>
+</body>
+</html>
